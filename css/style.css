@@ -36,6 +36,11 @@ ul {
     padding-top: 100px;
 }
 
+.navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 li {
     margin: 0 20px;
 }
@@ -114,7 +119,7 @@ footer {
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
         flex-direction: column;
         justify-content: center;
